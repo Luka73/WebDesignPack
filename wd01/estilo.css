@@ -1,0 +1,51 @@
+/* FOLHA DE ESTILO EM CASCATA */
+
+h1{
+	color:#069; /*cor da fonte*/
+	text-decoration:underline; /*sublinhado*/
+}
+
+h2,h3{
+	color:#690;
+}
+
+h3{
+	text-decoration:underline;	
+}
+
+tr{
+	background-color:#EEE;
+}
+
+tr:hover{ /*AO PASSAR O MOUSE*/
+	background-color:#ccc;	
+}
+
+th{
+	background-color:#666; /*cor de fundo*/
+	color:#FFF;	 /*cor do texto*/
+}
+
+a{
+	color:#F00;	
+}
+
+a:hover{
+	color:#000;	
+}
+
+ol{
+	list-style-type:upper-roman;
+}	
+
+ul{
+	list-style-type:square;	
+}
+
+ol li:hover{ /*ao passar o mouse no item da lista ORDENADA*/
+	color:#F00;	
+}
+
+ul li:hover{
+	color:#069;	
+}

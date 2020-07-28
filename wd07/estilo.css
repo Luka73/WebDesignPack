@@ -1,0 +1,163 @@
+body{
+	font-family:"trebuchet ms", arial;
+	margin:0;
+}
+
+h1,h2{
+	font-size:30px;
+	color:#666;	
+}
+
+p{
+	color:#888;	
+}
+
+ul{
+	color:#888;
+	font-size:14px;
+	list-style-type:square; /*muda o marcador*/
+	list-style-position:inside;
+	padding:0;	
+}
+
+li{
+	margin-bottom:15px;	
+}
+
+input[type=text]{ /*inputs que forem do tipo text */
+	width:280px;
+	background-color:#EEE;
+	border:solid 1px #999999;	
+}
+
+input[type=submit]{
+	width:90px;
+	height:25px;
+	background-color:#999;
+	border:solid 1px #666;
+	color:#FFF;
+}
+
+textarea{
+	width:400px;
+	height:140px;
+	background-color:#EEE;
+	border:solid 1px #999999;		
+}
+
+form{
+	color:#666;	
+}
+
+a[href='promocoes.html']{
+	color:#F00;	
+}
+
+.conteudoTopo{
+	width:900px;
+	margin:auto;
+	padding-top:3px;
+}
+
+.conteudo{
+	width:900px;
+	height:auto;
+	border-bottom:1px solid #73B9FF;
+	float:left;
+}
+
+.home{
+	margin-top:84px;
+}
+
+.imgleft{
+	float:left;	
+	margin-right:45px;
+}
+
+.imghome{
+	margin-top:60px;
+}
+
+.imgright{
+	float:right;
+	margin-left:30px;
+}	
+
+#tudo{
+	width:100%;
+	height:100%;
+	background-color:#000;
+	opacity:0.7; /*css3*/
+	position:fixed;
+	top:0;
+	left:0;	
+	z-index:2;
+	display:none;
+}
+
+#total{
+	width:900px;
+	height:auto;
+	margin:auto;
+		
+}
+
+#topo{
+	width:100%;
+	height:30px;
+	background-color:#73B9FF;
+	position:fixed;
+	top:0;
+	left:0;
+}
+
+#popup{
+	width:480px;
+	height:300px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:3;
+	margin-left:-240px;	
+	margin-top:-150px;
+	border:solid 3px #FFF;
+	display:none;
+}
+
+#fechar{
+	position:absolute;
+	right:-10px;
+	top:-10px;
+}
+
+#logo{
+	width:140px;
+	height:24px;
+	float:left;	
+}
+
+#menu{
+	float:right;	
+}
+
+#menu a{
+	color:#FFF;
+	text-decoration:none;	
+	margin-left:45px;
+}
+
+#menu a:hover{
+	text-decoration:underline;	
+}
+
+#rodape{
+	width:900px;
+	height:auto;
+	float:left;
+	color:#73B9FF;
+	text-align:center;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:10px;	
+}

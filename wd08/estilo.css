@@ -1,0 +1,147 @@
+body{
+	font-family:"trebuchet ms", arial;
+}
+
+h1{
+	font-size:22px;
+	color:#333;	
+}
+
+h2{
+	font-size:18px;
+	color:#333;	
+}
+
+p{
+	color:#666;	
+}
+
+aside#coluna p{
+	color:#999;
+	font-style:italic;	
+}
+
+div#total{
+	width:100%;
+	max-width:980px;
+	height:auto;
+	margin:auto;	
+}	
+
+header#topo{
+	width:100%;
+	height:auto;
+	float:left;	
+}
+
+section#logo{
+	width:204px;
+	height:84px;
+	margin:20px auto; /*vertical horizontal*/
+}
+
+nav#menu{
+	width:100%;
+	height:40px;
+	float:left;
+	background-color:#111;
+	text-align:center;
+	line-height:40px;
+	margin-bottom:2px;
+	border-radius:5px; /*css3*/
+}
+
+nav#menu a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+nav#menu a:hover{
+	text-decoration:underline;	
+}
+
+section#banner{
+	width:100%;
+	height:auto;
+	float:left;	
+}
+
+section#banner img{
+	width:100%;	
+}	
+
+
+article#conteudo{
+	width:60%;
+	height:auto;
+	float:left;
+}
+
+aside#coluna{
+	width:35%;
+	height:auto;
+	float:right;
+}
+
+footer#rodape{
+	width:100%;
+	height:30px;
+	float:left;
+	background-color:#DBC0AD;	
+	
+	text-align:center;
+	font-size:14px;
+	color:#333;
+	line-height:30px;
+}
+
+#anunciotablet{
+	width:100%;
+	height:auto;
+	background-color:#F90;
+	color:#FFF;
+	float:left;
+	text-align:center;
+	padding:5px 0;	
+	display:none;
+}
+
+/*MEDIA QUERY*/
+@media screen and (min-width:680px) and (max-width:768px){
+	
+	#anunciotablet{
+		display:block;	
+	}
+	
+}	
+
+@media screen and (max-width:568px){ /*smart na horizontal*/
+	nav#menu a{
+		margin-left:10px;
+		margin-right:10px;	
+	}
+	
+	article#conteudo, aside#coluna{
+		width:100%;
+	}
+	
+}
+
+
+@media screen and (max-width:360px){ /*smart na horizontal*/
+	nav#menu{
+		height:auto;	
+	}
+	
+	nav#menu a{
+		display:block;
+		border-bottom:1px solid #CCC;	
+	}
+	
+	nav#menu a:last-child{ /*ultimo filho*/
+		border:none;	
+	}
+}

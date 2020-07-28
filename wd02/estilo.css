@@ -1,0 +1,92 @@
+
+/*CSS RESET
+*{
+	margin:0;
+}
+*/
+
+body{
+	
+}
+
+h1{
+	margin:30px 0 0 20px; /*top right bottom left*/
+}
+
+h2{
+	margin:20px; /*4 lados*/
+}
+
+img{
+	border:none;	
+}
+
+#total{
+	width:960px;
+	height:auto;
+	margin:auto; /*centraliza um elemento em bloco que não possui float*/
+}
+
+#topo{
+	width:960px; /*largura*/
+	height:100px; /*altura*/
+	background-color:#ccc;
+	margin-bottom:10px;
+	float:left;
+}	
+
+#banner{
+	width:960px;
+	height:300px;
+	margin-bottom:10px;
+	float:left;
+	/*background-image:url(banner.jpg);*/
+}
+
+#conteudo{
+	width:690px;
+	height:400px;	
+	background-color:#CCC;
+	float:left;
+	margin-right:10px;
+}
+
+#coluna{
+	width:260px;
+	height:400px;
+	background-color:#ccc;
+
+	float:right;
+}
+
+
+#coluna1{
+	width:260px;
+	height:200px;
+	float:right;
+
+	/*border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#000;*/
+
+	border-bottom:solid 1px #999;
+	
+
+	
+}
+
+#coluna2{
+	width:260px;
+	height:200px;
+	float:right;
+	
+}
+
+#rodape{
+	width:960px;
+	height:40px;
+	background-color:#333;	
+	float:left;
+	margin-top:10px;
+}
+

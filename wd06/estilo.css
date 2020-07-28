@@ -1,0 +1,146 @@
+body{
+	margin:0;
+	font-family:"trebuchet ms", arial;
+}
+
+h1{
+	margin:0;	
+}
+
+h2,h3{
+	margin:0;
+	color:#4E3D72;
+	font-size:20px;	
+}
+
+h3{
+	font-size:18px;	
+}
+
+p{
+	color:#666;	
+	margin-top:0;
+	margin-bottom:15px;
+	line-height:120%;
+}
+
+.saibamais{
+	background-color:#BBA6E7;			
+	color:#FFF;
+	text-decoration:none;
+	font-size:14px;
+	height:25px;
+	line-height:25px;
+	display:inline-block;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.titulo{
+	color:#FFF;
+	font-size:30px;
+	font-style:italic;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:10px;	
+}
+
+.assinatura{
+	color:#FFF;
+	float:right;	
+}
+
+.imgleft{
+	float:left;	
+	margin-right:10px;
+}
+
+#total{
+	width:980px;
+	height:auto;
+	margin:auto;
+}
+
+#topo{
+	width:980px;
+	height:35px;
+	background-image:url(img/topo.png);
+	/*float:left;*/	
+	position:absolute;	
+	border-bottom:3px solid #BBA6E7;
+	
+	z-index:10;
+}
+
+#logo{
+	width:144px;
+	height:182px;
+	float:left;
+}
+
+#menu{
+	float:right;	
+}
+
+#menu a{
+	color:#FFF;
+	font-size:16px; /*padrao*/
+	text-decoration:none; /*retira o sublinhado*/
+	height:35px;	
+	display:inline-block;
+	
+	padding-left:23px;
+	padding-right:23px;
+	
+	line-height:35px;
+}
+
+#menu a:hover{
+	background-color:#BBA6E7;			
+}
+
+#banner{
+	width:980px;
+	height:400px;
+	background-color:#999;
+	float:left;	
+}
+
+#destaque{
+	width:900px;
+	height:150px;
+	float:left;
+	background-color:#4E3D72;	
+	padding:0 40px;
+	margin:40px 0; /*vertical horizontal*/
+}
+
+#conteudo{
+	width:750px;
+	min-height:180px;
+	float:left;
+}
+
+#coluna{
+	width:180px;
+	min-height:160px;
+	float:right;
+	background-color:#CCC;	
+	
+	color:#4C3D72;
+	font-size:14px;
+	
+	padding:10px;
+}
+	
+#rodape{
+	width:980px;
+	height:35px;
+	float:left;
+	background-color:#EEE;	
+	margin-top:40px;
+	color:#4E3D72;
+	font-size:12px;
+	text-align:center;
+	line-height:35px;
+}

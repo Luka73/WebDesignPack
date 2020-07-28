@@ -1,0 +1,213 @@
+
+body{
+	margin:0;
+	font-family:"trebuchet ms",tahoma;
+	background-color:#EEE;
+}
+
+h2{
+	font-family:tahoma;
+	font-size:18px;
+	color:#333;
+	margin:0 0 5px 0;	
+}
+
+input[type=text]{
+	width:100%;
+	border:none;
+	background-color:#CCC;
+}
+
+input[type=submit]{
+	color:#FFF;
+	background-color:#003366;
+	border:none;	
+}
+
+form{
+	font-size:14px;
+	color:#666;
+	margin-top:10px;	
+}
+
+.botao{
+	color:#FFF;
+	background-color:#003366;
+	text-decoration:none;	
+	font-size:12px;
+	padding:0 10px;
+}
+
+#conteudoPrincipal h1{
+	font-family:tahoma;
+	font-size:22px;
+	color:#FFF;
+	margin:0;	
+}
+
+#conteudoPrincipal p{
+	color:#FFF;	
+	font-size:14px;
+}
+
+#topo{
+	width:100%;
+	height:135px;
+	background-color:#222;
+	float:left;	
+}
+
+#conteudoTopo{
+		width:100%;
+		max-width:980px;
+	margin:auto;
+}
+
+#logo{
+	width:181px;
+	height:73px;
+	float:left;	
+	margin-top:30px;
+}
+
+#menu{
+	float:right;	
+	margin-top:56px;
+}
+
+#menu a{
+	font-family:tahoma;
+	font-size:14px;
+	color:#FFF;
+	text-transform:uppercase;
+	text-decoration:none;
+	margin-left:40px;
+}
+
+#menu a:hover{
+	text-decoration:underline;	
+}
+
+#banner{
+	width:100%;
+	height:auto;
+	float:left;	
+}
+
+#banner img{
+	width:100%;	
+	border-top:1px solid #FFF;
+	border-bottom:1px solid #FFF;	
+}
+
+#conteudoSite{
+		width:100%;
+		max-width:980px;
+	height:auto;
+	margin:auto;
+	clear:both;
+}
+
+#conteudoPrincipal{
+		width:98%;
+		max-width:960px;
+	min-height:50px;
+	float:left;
+	background-color:#003366;
+	padding:1%;
+	margin:30px 0;
+}
+
+#box1,#box2,#box3,#box4{
+	width:20%;
+	height:auto;
+	float:left;
+	margin-right:6.66%;
+}
+
+#box4{
+	margin-right:0;	
+}
+
+#box1 p,#box2 p,#box3 p,#box4 p{
+	font-size:12px;
+	color:#666;
+}
+
+#box1 img,#box2 img,#box3 img,#box4 img{
+	width:100%;
+}
+
+#rodape{
+	width:100%;
+	background-color:#222222;
+	float:left;	
+	text-align:center;
+	font-size:12px;
+	color:#CCC;
+	padding:10px 0;
+	margin-top:50px;
+}
+
+/*CTRL + SHIFT + M -> SIMULA A VISUALIZAÇÃO MOBILE */
+@media screen and (max-width:640px){
+	#topo{
+		height:auto;	
+	}
+	
+	#logo{
+		margin:20px auto 0 auto; /*top auto 0 auto*/
+		float:none;	
+	}
+	
+	#menu{
+		width:100%;
+		text-align:center;	
+		margin-top:30px;
+	}
+	
+	#menu a{
+		margin-left:20px;
+		margin-right:20px;	
+	}
+	
+	#box1,#box2,#box3,#box4{
+		width:45%;
+		margin:0 0 30px 0;
+	}
+	
+	#box2,#box4{
+		float:right;	
+	}
+	
+	#rodape{
+		margin-top:0;	
+	}
+	
+}
+
+@media screen and (max-width:480px){
+	
+	#menu a{
+		display:block;
+		border-bottom:1px solid #999;	
+		padding:10px 0;
+	}
+	
+	#menu a:last-child{
+		border:none;	
+	}
+	
+	#box1,#box2,#box3,#box4{
+		width:100%;	
+	}
+	
+	#box1 img,#box2 img,#box3 img,#box4 img{
+		display:none;	
+	}
+	
+	input[type=text]{
+		width:60%;	
+	}
+	
+}

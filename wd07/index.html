@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+	
+    <link rel="stylesheet" href="estilo.css" type="text/css" />
+
+		<script type="text/javascript" src="js/jQuery.js"></script>
+        <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+        <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+
+        <script type="text/javascript">
+        
+			$(document).ready(function(){
+			
+				$('#menu').localScroll({
+				 target:'body'
+				});
+				
+				
+				$("#tudo,#popup").fadeIn(1000);
+					
+				
+				$("#fechar,#tudo").click(function(){
+					$("#tudo,#popup").fadeOut(1000);
+					//$("p").css("color","#f00");
+					
+				});
+				
+			
+			});
+		
+			
+					
+        </script>
+
+</head>
+
+<body>
+	
+    <div id="tudo">    	
+    </div>
+	
+    <div id="popup">
+
+    	<a href="#" id="fechar"><img src="img/fechar.png" alt="botao fechar" /></a>
+        
+    	<img src="img/popup.jpg" alt="popoup" />
+    </div>
+        
+    <!--comentario-->
+    <div id="topo">
+    	
+		<div class="conteudoTopo">
+            
+            <div id="logo">
+                <img src="img/logo.png" alt="logotipo" />
+            </div>
+            
+            <div id="menu">
+                <a href="#total">Home</a>
+                <a href="#quemsomos">Quem Somos</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#contato">Contato</a>
+            </div>
+            
+        </div>
+        
+    </div>
+    	
+	
+    <div id="total">
+    
+        <div class="conteudo home">
+            
+            <img src="img/destaquehome.jpg" alt="imagem destaque" class="imgleft" />
+            
+            <h1>BEM VINDO A DENTE CLEAN</h1>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare.</p>
+    
+            <p>Nulla sed urna erat, non posuere urna. Proin tempor consectetur auctor. Aenean auctor aliquet sagittis. Sed vehicula enim at nulla adipiscing eu rhoncus nisl vehicula.</p>
+            
+            <img src="img/imghome1.jpg" alt="imagem criança" class="imghome" />
+            <img src="img/imghome2.jpg" alt="imagem casal"  class="imghome" />
+            <img src="img/imghome3.jpg" alt="imagem paciente" class="imghome"  />
+            
+        </div>	
+        
+        <!--QUEM SOMOS-->
+        <div class="conteudo" id="quemsomos">
+        	
+            <h2>QUEM SOMOS</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare.</p>
+
+			<p>Nulla sed urna erat, non posuere urna. Proin tempor consectetur auctor. Aenean auctor aliquet sagittis. Sed vehicula enim at nulla adipiscing eu rhoncus nisl vehicula.</p>
+            
+            <img src="img/destaquequemsomos.jpg" alt="imagem de destaque" />
+            
+        </div>
+        
+        <!--SERVIÇOS-->
+        <div class="conteudo" id="servicos">
+        	
+            <h2>SERVIÇOS</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo. Proin volutpat consequat mi vitae ornare. Aenean interdum aliquet ornare.</p>
+            
+            <img src="img/destaqueservicos.jpg" class="imgright" alt="imagem serviços" />            
+            <ul>            	
+                <li>
+                  <strong>ETIAM VARIUS:</strong> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+                </li>
+                
+                <li>
+                  <strong>ETIAM VARIUS:</strong> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+                </li>
+                
+                <li>
+                  <strong>ETIAM VARIUS:</strong> accumsan nisl, vel dictum dui sollicitudin vel. Duis ac libero in quam tincidunt varius eu ut lectus. Donec consectetur tortor vitae ipsum convallis ornare. Cras tempor, elit nec eleifend egestas.
+                </li>                
+            </ul>
+            
+        </div>
+        
+        <!--CONTATO-->
+        
+        <div class="conteudo" id="contato">
+        
+        	<h2>CONTATO</h2>
+            
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut urna sapien, quis sollicitudin nunc. Sed commodo pretium feugiat. Quisque id metus ut quam sodales egestas ac sed leo.
+           </p>
+           
+           <img src="img/destaquecontato.jpg" class="imgright" alt="imagem contato" />
+           
+           <form>
+           
+           		Nome:<br />
+                <input type="text" /><br />
+                
+                E-mail:<br />
+                <input type="text" /><br />
+                
+                Mensagem:<br />
+                <textarea></textarea> <br />
+                
+                <input type="submit" value="Enviar" />
+           
+           </form>
+        
+        </div>
+            
+    	<div id="rodape">
+        	DenteClean - Todos os direitos reservados.
+        </div>	
+    
+	</div>
+</body>
+</html>
